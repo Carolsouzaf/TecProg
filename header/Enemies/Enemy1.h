@@ -2,8 +2,11 @@
 #define ENEMY1_H
 class Enemy1{
 
-public:
-    Enemy1();
-    ~Enemy1();
-};
+namespace Enemies{
+    public:
+        Enemy1();
+        ~Enemy1();
+    };
+}
+
 #endif
