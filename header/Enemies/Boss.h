@@ -1,10 +1,14 @@
 #ifndef BOSS_H
 #define BOSS_H
-class Boss{
+#include "Enemy.h"
 
-public:
-    Boss();
-    ~Boss();
+namespace Enemies{
+    class Boss{
 
-};
+    public:
+        Boss();
+        ~Boss();
+
+    };
+}
 #endif
