@@ -1,12 +1,12 @@
 #ifndef ENEMY_H
 #define ENEMY_H
-class Enemy{
 
 namespace Enemies{
+    class Enemy{
+    
     public:
         Enemy();
         ~Enemy();
     };
 }
-
 #endif
