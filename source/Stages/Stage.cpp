@@ -6,7 +6,7 @@ Stage::Stage(){
 Stage::~Stage(){
     
 }
-void Stage::colisionManager(){
+void Stage::collisionManager(){
 
 }
 virtual void Stage::execute(){
