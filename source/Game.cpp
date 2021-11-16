@@ -6,6 +6,5 @@ Game::~Game(){
 
 }
 void Game::execute(){
-    //esse é um comentario para testar o github
 
 }
