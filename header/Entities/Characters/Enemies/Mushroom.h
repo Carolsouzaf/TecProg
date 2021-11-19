@@ -7,7 +7,7 @@
 #define MUSHROOM_TEXTURE "../assets/Monsters/Mushroom/mushroom.png"
 
 #include "Enemy.h"
-
+using namespace std;
 namespace Enemies{
     class Mushroom: public Enemy{
 

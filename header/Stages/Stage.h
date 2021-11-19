@@ -2,6 +2,7 @@
 #define STAGE_H
 
 #include "Being.h"
+using namespace std;
 namespace Stages{
     class Stage: public Being{
 

@@ -3,6 +3,7 @@
 class Enemy{
 
 #include "Character.h"
+using namespace std;
 
 namespace Enemies{
     class Enemy: public Character{

@@ -6,13 +6,13 @@
 #define TECPROG_COLLISIONMANAGER_H
 
 #include "EntityList.h"
-
-namespace Stages
+using namespace std;
+namespace Managers
 {
-    class Stage;
     class CollisionManager {
+
     };
 }
 
 
-#endif //TECPROG_COLLISIONMANAGER_H
+#endif
