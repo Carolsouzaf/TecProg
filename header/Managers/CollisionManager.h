@@ -5,10 +5,14 @@
 #ifndef TECPROG_COLLISIONMANAGER_H
 #define TECPROG_COLLISIONMANAGER_H
 
+#include "EntityList.h"
 
-class CollisionManager {
-
-};
+namespace Stages
+{
+    class Stage;
+    class CollisionManager {
+    };
+}
 
 
 #endif //TECPROG_COLLISIONMANAGER_H
