@@ -1,7 +1,6 @@
 #ifndef ELEMENT_H
 #define ELEMENT_H
-using namespace std;
-namespace Lists {
+
     template<class TE>
     class Element {
     private:
@@ -32,6 +31,6 @@ namespace Lists {
         pNext = nullptr;
         pInfo = nullptr;
     }
-}
+
 
 #endif

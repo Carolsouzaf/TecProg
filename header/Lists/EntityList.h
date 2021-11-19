@@ -3,10 +3,7 @@
 
 #include "List.h"
 #include "Entity.h"
-using namespace std;
 
-namespace Lists
-{
     class EntityList
     {
     public:
@@ -16,6 +13,6 @@ namespace Lists
         ~EntityList();
         List<Entities::Entity>* getList();
     };
-}
+
 
 #endif

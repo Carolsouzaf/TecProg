@@ -3,8 +3,7 @@
 
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
-using namespace std;
-namespace Managers {
+
     class GraphicManager {
     private:
 //    std::map<const char*, uniqueId> loadedTextures;
@@ -26,6 +25,6 @@ namespace Managers {
         //void draw();
         //sf::Event getEvent();
     };
-}
+
 
 #endif
