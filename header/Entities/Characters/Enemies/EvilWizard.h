@@ -4,8 +4,6 @@
 #define EVILWIZARD_TEXTURE "../assets/Evil Wizard/evil_wizard.png"
 
 #include "Enemy.h"
-using namespace std;
-namespace Enemies{
     class EvilWizard: public Enemy{
     
     private:
@@ -15,5 +13,5 @@ namespace Enemies{
         ~EvilWizard();
 
     };
-}
+
 #endif

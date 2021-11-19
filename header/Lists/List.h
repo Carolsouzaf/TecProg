@@ -6,9 +6,7 @@
 List Based on Template List made by Jean Simão:
 Website Link: https://pessoal.dainf.ct.utfpr.edu.br/jeansimao/
 */
-using namespace std;
 
-namespace Lists {
     template<class TE>
     class List {
     private:
@@ -104,5 +102,5 @@ namespace Lists {
     TE *List<TE>::operator[](int i) {
         return this->getPInfo(i);
     }
-}
+
 #endif

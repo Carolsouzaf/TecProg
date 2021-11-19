@@ -2,8 +2,7 @@
 #define ENTITY_H
 using namespace std;
 
-namespace Entities{
-    
+
     class Entity: public Being{
     protected:
         int x;
@@ -14,6 +13,6 @@ namespace Entities{
         virtual void execute();
 
     };
-}
+
 
 #endif
