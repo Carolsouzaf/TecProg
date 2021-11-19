@@ -1,3 +1,0 @@
-/home/carolsfer/TecProg/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/carolsfer/TecProg/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/carolsfer/TecProg/cmake-build-debug/CMakeFiles/TecProg.dir

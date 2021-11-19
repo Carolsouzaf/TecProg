@@ -14,7 +14,6 @@ include_directories(header/Managers)
 include_directories(header/Stages)
 
 add_executable(TecProg
-        header/Enemies/FireWorm.h
         header/Entities/Characters/Enemies/Enemy.h
         header/Entities/Characters/Enemies/EvilWizard.h
         header/Entities/Characters/Enemies/Goblin.h
@@ -28,7 +27,6 @@ add_executable(TecProg
         header/Entities/Entity.h
         header/Entities/Projectile.h
         header/Lists/Element.h
-        header/Lists/EntitiesList.h
         header/Lists/EntityList.h
         header/Lists/List.h
         header/Managers/CollisionManager.h
