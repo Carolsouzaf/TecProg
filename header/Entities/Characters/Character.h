@@ -6,10 +6,16 @@
 #define CHARACTER_H
 
 #include "Entity.h"
+using namespace std;
 
-class Character: public Entity {
+namespace Entities {
+    class Character : public Entity {
+    private:
 
-};
-
+    public:
+        Character();
+        ~Character();
+    };
+}
 
 #endif

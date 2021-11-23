@@ -37,14 +37,13 @@ add_executable(TecProg
         header/Being.h
         header/Game.h
         header/Menu.h
-        source/Enemies/Enemy.cpp
-        source/Enemies/EvilWizard.cpp
-        source/Enemies/FireWorm.cpp
-        source/Enemies/Goblin.cpp
-        source/Enemies/Mushroom.cpp
-        source/Entities/Characters/Enemies/Boss.cpp
-        source/Entities/Characters/Enemies/Enemy1.cpp
-        source/Entities/Characters/Enemies/Enemy2.cpp
+        source/Entities/Characters/Enemies/Enemy.cpp
+        source/Entities/Characters/Enemies/EvilWizard.cpp
+        source/Entities/Characters/Enemies/FireWorm.cpp
+        source/Entities/Characters/Enemies/Goblin.cpp
+        source/Entities/Characters/Enemies/Mushroom.cpp
+        source/Entities/Characters/Character.cpp
+        source/Entities/Characters/Player.cpp
         source/Entities/Obstacles/Obstacle.cpp
         source/Entities/Obstacles/Platform.cpp
         source/Entities/Obstacles/Stalagmite.cpp
@@ -58,7 +57,6 @@ add_executable(TecProg
         source/Stages/MossBiome.cpp
         source/Stages/Stage.cpp
         source/Being.cpp
-        source/Character.cpp
         source/Game.cpp
         source/Menu.cpp
-        source/Player.cpp)
+        )

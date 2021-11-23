@@ -3,6 +3,7 @@
 //
 
 #include "Projectile.h"
+using namespace Entities;
 
 Projectile::Projectile(){
 

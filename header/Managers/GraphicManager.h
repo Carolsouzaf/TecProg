@@ -3,6 +3,8 @@
 
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
+using namespace std;
+namespace Managers {
 
     class GraphicManager {
     private:
@@ -25,6 +27,6 @@
         //void draw();
         //sf::Event getEvent();
     };
-
+}
 
 #endif

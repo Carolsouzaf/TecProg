@@ -3,6 +3,7 @@
 //
 
 #include "FireWorm.h"
+using namespace Entities;
 FireWorm::FireWorm(){
 
 }

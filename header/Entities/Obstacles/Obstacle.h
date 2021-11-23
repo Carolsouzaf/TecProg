@@ -4,13 +4,17 @@
 
 #ifndef OBSTACLE_H
 #define OBSTACLE_H
+#include "Entity.h"
+using namespace std;
 
-class Obstacle: public Entity{
-private:
+namespace Entities {
+    class Obstacle : public Entity {
+    private:
 
-public:
-    Obstacle();
-    ~Obstacle();
-};
+    public:
+        Obstacle();
 
-#endif OBSTACLE_H
+        ~Obstacle();
+    };
+}
+#endif

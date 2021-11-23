@@ -2,7 +2,8 @@
 // Created by carolsfer on 18/11/2021.
 //
 
-#include "../../header/Managers/GraphicManager.h"
+#include "GraphicManager.h"
+using namespace Managers;
 
 GraphicManager::GraphicManager(int screenWidth, int screenHeight, const char *windowText) {
     screenWidth = 200;

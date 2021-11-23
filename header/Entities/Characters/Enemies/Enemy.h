@@ -1,18 +1,21 @@
 #ifndef ENEMY_H
 #define ENEMY_H
-class Enemy{
 
 #include "Character.h"
+#include "Entity.h"
+using namespace std;
 
+namespace Entities {
 
-    class Enemy: public Character{
+    class Enemy : public Character {
 
     private:
 
     public:
         Enemy();
+
         ~Enemy();
     };
-
+}
 
 #endif
