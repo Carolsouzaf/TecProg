@@ -3,6 +3,7 @@
 //
 
 #include "Thorn.h"
+using namespace Entities;
 Thorn::Thorn(){
 
 }

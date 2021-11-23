@@ -5,13 +5,15 @@
 #ifndef PROJECTILE_H
 #define PROJECTILE_H
 
+using namespace std;
+namespace Entities {
+    class Projectile {
+    private:
 
-class Projectile {
-private:
+    public:
+        Projectile();
 
-public:
-    Projectile();
-    ~Projectile();
-};
-
+        ~Projectile();
+    };
+}
 #endif

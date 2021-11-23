@@ -1,5 +1,5 @@
 #include "Stage.h"
-
+using namespace Stages;
 Stage::Stage(){
 
 }

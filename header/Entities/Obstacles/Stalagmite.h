@@ -5,14 +5,20 @@
 #ifndef STALAGMITE_H
 #define STALAGMITE_H
 
+#include "Entity.h"
+#include "Obstacle.h"
 
-class Stalagmite {
-private:
+using namespace std;
 
-public:
-    Stalagmite();
-    ~Stalagmite();
-};
+namespace Entities {
+    class Stalagmite : public Obstacle  {
+    private:
 
+    public:
+        Stalagmite();
+
+        ~Stalagmite();
+    };
+}
 
 #endif

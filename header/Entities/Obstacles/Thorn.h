@@ -5,14 +5,19 @@
 #ifndef THORN_H
 #define THORN_H
 
+#include "Obstacle.h"
 
-class Thorn: public Obstacle{
-private:
+using namespace std;
 
-public:
-    Thorn();
-    ~Thorn();
-};
+namespace Entities {
+    class Thorn : public Obstacle {
+    private:
 
+    public:
+        Thorn();
+
+        ~Thorn();
+    };
+}
 
 #endif

@@ -6,11 +6,17 @@
 #define TECPROG_COLLISIONMANAGER_H
 
 #include "EntityList.h"
+using namespace std;
+namespace Managers{
 
     class CollisionManager {
+    private:
 
+    public:
+        CollisionManager();
+        ~CollisionManager();
     };
-
+}
 
 
 #endif

@@ -3,6 +3,7 @@
 //
 
 #include "Stalagmite.h"
+using namespace Entities;
 Stalagmite::Stalagmite(){
 
 }

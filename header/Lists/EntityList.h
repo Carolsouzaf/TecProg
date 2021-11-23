@@ -3,16 +3,19 @@
 
 #include "List.h"
 #include "Entity.h"
+using namespace std;
 
-    class EntityList
-    {
+namespace Lists {
+    class EntityList {
     public:
         List<Entities::Entity> LEs;
     public:
         EntityList();
-        ~EntityList();
-        List<Entities::Entity>* getList();
-    };
 
+        ~EntityList();
+
+        List<Entities::Entity> *getList();
+    };
+}
 
 #endif

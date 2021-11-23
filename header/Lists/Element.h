@@ -1,15 +1,23 @@
 #ifndef ELEMENT_H
 #define ELEMENT_H
+using namespace std;
 
+namespace Lists {
     template<class TE>
     class Element {
     private:
         Element<TE> *pNext;
         TE *pInfo;
     public:
-        Element();
+        Element() {
+            pNext = nullptr;
+            pInfo = nullptr;
+        }
 
-        ~Element();
+        ~Element() {
+            pNext = nullptr;
+            pInfo = nullptr;
+        }
 
         void setPNext(Element<T> *pnext) { this->pNext = pnext; }
 
@@ -19,18 +27,6 @@
 
         TE *getPInfo() { return pInfo; }
     };
-
-    template<class TE>
-    Element<TE>::Element() {
-        pNext = nullptr;
-        pInfo = nullptr;
-    }
-
-    template<class TE>
-    Element<TE>::~Element() {
-        pNext = nullptr;
-        pInfo = nullptr;
-    }
-
+}
 
 #endif

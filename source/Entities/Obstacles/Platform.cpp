@@ -3,6 +3,7 @@
 //
 
 #include "Platform.h"
+using namespace Entities;
 Platform::Platform(){
 
 }

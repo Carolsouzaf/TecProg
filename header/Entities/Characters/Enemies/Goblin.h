@@ -4,14 +4,18 @@
 #define GOBLIN_TEXTURE "../assets/Monsters/Goblin/goblin.png"
 
 #include "Enemy.h"
+#include "Entity.h"
+using namespace std;
 
-    class Goblin: public Enemy{
-    
+namespace Entities {
+    class Goblin : public Enemy {
+
     private:
 
     public:
         Goblin();
+
         ~Goblin();
     };
-
+}
 #endif

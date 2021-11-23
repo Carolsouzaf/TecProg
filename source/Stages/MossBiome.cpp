@@ -1,4 +1,5 @@
 #include "MossBiome.h"
+using namespace Stages;
 MossBiome::MossBiome(){
 
 }

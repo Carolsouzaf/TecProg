@@ -2,14 +2,18 @@
 #define STAGE_H
 
 #include "Being.h"
-
-    class Stage: public Being{
+using namespace std;
+namespace Stages {
+    class Stage : public Being {
 
     public:
         Stage();
+
         ~Stage();
+
         void collisionManager();
+
         virtual void execute();
     };
-
+}
 #endif

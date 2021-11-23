@@ -1,5 +1,5 @@
 #include "Entity.h"
-
+using namespace Entities;
 Entity::Entity(){
 
 }
