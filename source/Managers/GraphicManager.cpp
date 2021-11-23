@@ -4,26 +4,59 @@
 
 #include "GraphicManager.h"
 using namespace Managers;
+GraphicManager::GraphicManager() {
 
-GraphicManager::GraphicManager(int screenWidth, int screenHeight, const char *windowText) {
+    this->initVariables();
+    this->initWindow();
+
     screenWidth = 200;
     screenHeight = 200;
     windowText = "My Game";
-    sf::Window window;
+    sf::RenderWindow window;
     window.create(sf::VideoMode(screenWidth, screenHeight), windowText);
-
+    sf::Event event = getEvent;
 
     while (window.isOpen()) {
-        sf::Event event;
+
         while (window.pollEvent(event)) {
-            if (event.type == sf::Event::Closed) {
-                window.close();
+            switch (event.type) {
+                case sf::Event::Closed:
+                    window.close();
+                    break;
+                case sf::Event::KeyPressed:
+                    if (event.key.code == sf::Keyboard::Escape)
+                        window.close();
+                    break;
             }
         }
+        //Update
+        window.clear(sf::Color(255, 255, 255, 255));
+        //this.draw();
+        window.display();
     }
 }
 GraphicManager::~GraphicManager(){
+delete this->window;
+}
+sf::Event GraphicManager::getEvent(){
+    return event;
+}
 
+void GraphicManager::update(){
+
+}
+
+void GraphicManager::render(){
+
+}
+
+void GraphicManager::initVariables(){
+this->window = nullptr;
+}
+void GraphicManager::initWindow(int screenWidth, int screenHeight, const char *windowText){
+    this->videomode.width = screenWidth;
+    this->videomode.height = screenHeight;
+    this->window = new sf::RenderWindow(sf::VideoMode(videomode.width, videomode.height), windowText);
 }
 
 //        window.draw(shape);

@@ -2,10 +2,12 @@
 #define GAME_H
 
 class Game{
+private:
 
 public:
     Game();
-    ~Game();
+    virtual ~Game();
+
     void execute();
 };
 #endif
