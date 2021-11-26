@@ -6,11 +6,13 @@
 
 #define FIREWORM_TEXTURE "../assets/Monsters/Fire Worm/fire_worm.png"
 
-#include "Enemy.h"
 #include "Entity.h"
+#include "Character.h"
+#include "Enemy.h"
+
 using namespace std;
 
-namespace Entities {
+namespace Entities::Characters::Enemy {
 
     class FireWorm : public Enemy {
 

@@ -1,5 +1,5 @@
 #include "EvilWizard.h"
-using namespace Entities;
+using namespace Entities::Characters::Enemy;
 EvilWizard::EvilWizard(){
 
 }

@@ -10,7 +10,7 @@
 
 using namespace std;
 
-namespace Entities {
+namespace Entities::Obstacles {
     class Stalagmite : public Obstacle  {
     private:
 

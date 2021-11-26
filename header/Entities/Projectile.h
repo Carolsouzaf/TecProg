@@ -5,6 +5,8 @@
 #ifndef PROJECTILE_H
 #define PROJECTILE_H
 
+#include "Entity.h"
+
 using namespace std;
 namespace Entities {
     class Projectile {

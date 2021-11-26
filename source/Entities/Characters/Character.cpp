@@ -1,5 +1,5 @@
 #include "Character.h"
-using namespace Entities;
+using namespace Entities::Characters;
 Character::Character(){
 
 }

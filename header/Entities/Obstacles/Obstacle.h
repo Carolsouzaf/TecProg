@@ -7,7 +7,7 @@
 #include "Entity.h"
 using namespace std;
 
-namespace Entities {
+namespace Entities::Obstacles {
     class Obstacle : public Entity {
     private:
 

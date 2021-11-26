@@ -2,10 +2,13 @@
 #define GAME_H
 
 class Game{
+private:
+    GraphicManager GM;
 
 public:
     Game();
-    ~Game();
+    virtual ~Game();
+
     void execute();
 };
 #endif

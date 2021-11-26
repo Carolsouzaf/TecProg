@@ -5,7 +5,7 @@
 #include "Entity.h"
 using namespace std;
 
-namespace Entities {
+namespace Entities::Characters::Enemy {
 
     class Enemy : public Character {
 
