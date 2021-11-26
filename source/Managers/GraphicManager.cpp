@@ -4,7 +4,7 @@
 
 #include "GraphicManager.h"
 using namespace Managers;
-GraphicManager::GraphicManager() {
+GraphicManager::GraphicManager(int screenWidth, int screenHeight, const char *windowText) {
 
     this->initVariables();
     this->initWindow();
@@ -48,6 +48,11 @@ void GraphicManager::update(){
 
 void GraphicManager::render(){
 
+}
+
+void GraphicManager::drawBeing(Being *b){
+        // void* Fig = b->getFigura();
+        // comandos da biblioteca gráfica para desenhar o derivado de ente a partir de sua figua ou coisa que o valha.
 }
 
 void GraphicManager::initVariables(){

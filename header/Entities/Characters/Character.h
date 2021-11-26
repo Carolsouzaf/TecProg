@@ -8,7 +8,7 @@
 #include "Entity.h"
 using namespace std;
 
-namespace Entities {
+namespace Entities::Characters {
     class Character : public Entity {
     private:
 

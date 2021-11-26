@@ -3,6 +3,7 @@
 
 class Game{
 private:
+    GraphicManager GM;
 
 public:
     Game();

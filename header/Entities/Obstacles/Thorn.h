@@ -5,11 +5,12 @@
 #ifndef THORN_H
 #define THORN_H
 
+#include "Entity.h"
 #include "Obstacle.h"
 
 using namespace std;
 
-namespace Entities {
+namespace Entities::Obstacles {
     class Thorn : public Obstacle {
     private:
 

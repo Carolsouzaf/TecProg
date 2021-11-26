@@ -3,7 +3,7 @@
 
 #include "Being.h"
 
-class Menu: public Being{
+class Menu{
 
 };
 

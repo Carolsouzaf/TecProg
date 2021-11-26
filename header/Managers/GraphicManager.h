@@ -4,6 +4,9 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
+
+#include "Being.h"
+
 using namespace std;
 namespace Managers {
 
@@ -31,7 +34,7 @@ namespace Managers {
         GraphicManager(int screenWidth, int screenHeight, const char *windowText);
 
         ~GraphicManager();
-        //void draw();
+        void drawBeing(Being *b);
         void update();
         void render();
         sf::Event getEvent();

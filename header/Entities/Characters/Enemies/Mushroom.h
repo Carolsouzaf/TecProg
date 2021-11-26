@@ -6,11 +6,13 @@
 
 #define MUSHROOM_TEXTURE "../assets/Monsters/Mushroom/mushroom.png"
 
-#include "Enemy.h"
 #include "Entity.h"
+#include "Character.h"
+#include "Enemy.h"
+
 using namespace std;
 
-namespace Entities {
+namespace Entities::Characters::Enemy {
     class Mushroom : public Enemy {
 
     private:

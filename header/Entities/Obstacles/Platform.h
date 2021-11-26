@@ -9,7 +9,7 @@
 
 using namespace std;
 
-namespace Entities {
+namespace Entities::Obstacles {
 
     class Platform: public Obstacle {
     private:

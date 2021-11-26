@@ -1,5 +1,5 @@
 #include"Goblin.h"
-using namespace Entities;
+using namespace Entities::Characters::Enemy;
 Goblin::Goblin(){
 
 }

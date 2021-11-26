@@ -1,5 +1,5 @@
 #include"Enemy.h"
-using namespace Entities;
+using namespace Entities::Characters::Enemy;
 Enemy::Enemy(){
 
 }
